@@ -1,0 +1,3 @@
+# Use shift tab to cycle through completions.
+# http://stackoverflow.com/questions/12044574/getting-complete-and-menu-complete-to-work-together
+"\e[Z": menu-complete
