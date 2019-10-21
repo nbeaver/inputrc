@@ -1,3 +1,11 @@
 # Use shift tab to cycle through completions.
 # http://stackoverflow.com/questions/12044574/getting-complete-and-menu-complete-to-work-together
 "\e[Z": menu-complete
+
+# Show all possibilities if there are many.
+# "words which have more than one possible completion
+# cause the matches to be listed immediately
+# instead of ringing the bell."
+set show-all-if-ambiguous on
+# https://stackoverflow.com/questions/42192384/show-all-if-ambiguous-vs-show-all-if-unmodified
+# https://www.gnu.org/software/bash/manual/html_node/Readline-Init-File-Syntax.html
