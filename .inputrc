@@ -6,6 +6,13 @@
 # "words which have more than one possible completion
 # cause the matches to be listed immediately
 # instead of ringing the bell."
-set show-all-if-ambiguous on
+# Disable this so shift-tab works with many values.
+set show-all-if-ambiguous off
 # https://stackoverflow.com/questions/42192384/show-all-if-ambiguous-vs-show-all-if-unmodified
 # https://www.gnu.org/software/bash/manual/html_node/Readline-Init-File-Syntax.html
+
+# Turn off terminal bell.
+set bell-style none
+# https://tiswww.case.edu/php/chet/readline/readline.html
+# https://unix.stackexchange.com/questions/73672/how-to-turn-off-the-beep-only-in-bash-tab-complete
+# https://github.com/Microsoft/WSL/issues/715
